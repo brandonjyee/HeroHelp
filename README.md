@@ -3,7 +3,9 @@
 
 HeroHelp is the modern-day Bat Signal. More specifically, it's a two-sided real-time coordinated mobile app system for incident management. Citizens can call for help and Heroes can respond to dispatches and resolve incidents.
 
-This was a project created by four students at Fullstack Academy in Chicago. We had two weeks to put together a Capstone project -- a prototype application showcasing many of the web technologies learned during the prior 10 weeks of the program.
+This project was created by four students at Fullstack Academy in Chicago. We had two weeks to put together a Capstone project -- a prototype application incorporating web technologies learned during the prior 10 weeks of the program as well as new technologies we were interested in exploring. We chose to explore integrating websockets with Google Maps and React Native to create a real-time incident management system.
+
+![HeroHelp Demo](https://github.com/brandonjyee/HeroHelp/blob/master/herohelp-demo.gif)
 
 ## Getting Started
 
