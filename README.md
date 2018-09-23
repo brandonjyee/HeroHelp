@@ -1,9 +1,44 @@
 # HeroHelp
-![HeroHelp](https://ibb.co/kA0CYU)
+![HeroHelp Logo](https://github.com/brandonjyee/HeroHelp/blob/master/client/components/assets/logo.png)
 
-Two-sided real-time coordinated mobile app system for incident management. Citizens can call for help and Heroes can respond to dispatches and resolve incidents. It's the modern-day Bat-Signal.
+HeroHelp is the modern-day Bat Signal. More specifically, it's a two-sided real-time coordinated mobile app system for incident management. Citizens can call for help and Heroes can respond to dispatches and resolve incidents.
 
-What happens when four students at Fullstack Academy in Chicago have two weeks to put together a Capstone project, a demonstration-grade product showcasing many of the web technologies they just learned for the first time during the prior 10 weeks, along with their brand new JavaScript and development skills?
+This was a project created by four students at Fullstack Academy in Chicago. We had two weeks to put together a Capstone project -- a prototype application showcasing many of the web technologies learned during the prior 10 weeks of the program.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+HeroHelp was primarily developed for the Apple IPhone 7S. Although react-native works across mobile platforms, it hasn't been tested on other platforms so there may be incompatibilities.
+
+To run the react-native apps, you have a few options:
+
+1.) If you have a Mac, you can run the iPhone simulator
+2.) If you have an iPhone, you can run HeroHelp on your phone via Expo
+
+```
+
+```
+
+### Installing
+
+This repo contains multiple projects (i.e. admin, client, server, simulator, etc) that have their own package dependencies. To install, you must navigate into each of these top-level directories and run
+
+```
+npm install
+```
+An explanation of the top-level projects:
+* **admin** : contains the admin interface
+* **client** : contains the Citizen & Hero React Native apps
+* **server** : contains the backend-server
+* **simulator**    : contains the simulator. Essentially a node client that simulates the Citizen and Hero clients for helping to test the React Native apps independently
+
+You can find more specific information on each of the projects in the READMEs for each of the projects.
+
+**admin**
+This project is a web app that displays information about the running system that would be useful to an operator (Ex: incidents in progress, heatmap of incidents, which hero is assigned to what incident, etc). It's dependent on the server project b/c it uses the server's database code to access the same database.
 
 ## Built With
 
@@ -15,58 +50,6 @@ What happens when four students at Fullstack Academy in Chicago have two weeks t
 * [Expo](https://docs.expo.io/versions/latest/) - complimentary library to React Native
 * [Sequelize](http://docs.sequelizejs.com/) - database queries
 * [PostgreSQL](https://www.postgresql.org/docs/) - object-relational database management system
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-This repo contains multiple projects (i.e. admin, client, server, simulator, etc) that have their own package dependencies. You must go into each of these top-level directories and run 
-
-```
-npm install
-```
-An explanation of the top-level projects:
-* **admin** : contains the admin interface
-* **client** : contains the Citizen & Hero React Native apps
-* **server** : contains the backend-server
-* **simulator**    : contains the simulator. Essentially a node client that simulates the Citizen and Hero clients for helping to test the React Native apps independently
-
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Contributing
 
