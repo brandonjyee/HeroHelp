@@ -21,8 +21,8 @@ HeroHelp was primarily developed for the Apple IPhone 7S. Although react-native 
 
 To run the react-native apps, you have a few options:
 
-1.) If you have a Mac, you can run the iPhone simulator
-2.) If you have an iPhone, you can run HeroHelp on your phone via Expo
+1. If you have a Mac, you can run the iPhone simulator
+2. If you have an iPhone, you can run HeroHelp on your phone via Expo
 
 ```
 
